@@ -1,0 +1,13 @@
+.singleGoProWrapper {
+  position: relative;
+}
+
+.singleGoProWrapper > p {
+  background: #1d4ed8;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  padding: 10px 15px;
+  top: 0;
+  box-shadow: 0 0 2px 0 #000;
+}

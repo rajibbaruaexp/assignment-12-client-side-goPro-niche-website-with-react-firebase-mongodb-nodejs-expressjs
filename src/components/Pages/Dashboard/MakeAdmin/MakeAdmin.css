@@ -1,0 +1,29 @@
+.admin-wrapper {
+  background: #fff;
+  width: 370px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.admin-wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-wrapper form input {
+  height: 43px;
+  margin-bottom: 4px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 5px;
+  color: #333;
+}
+
+.admin-wrapper form button {
+  background: #4f46e5 !important;
+  height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
+}

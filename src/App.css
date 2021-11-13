@@ -6,33 +6,48 @@
   height: 40vmin;
   pointer-events: none;
 }
+.cspinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  margin-left: -50% !important;
+}
+.Toastify__toast {
+  background: #4f46e5 !important;
+  color: #fff !important;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Toastify__toast button {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .desktopdashboard {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .my-orders {
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
   }
-  to {
-    transform: rotate(360deg);
+  .cdahsboardmargning {
+    margin: 0;
+    padding: 0;
+  }
+  .checkout-wrapper .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .checkOutForm {
+    margin: 0 auto;
+  }
+  .my-orders td {
+    font-size: 10px;
+  }
+
+  .my-orders td.text-right button {
+    width: 100%;
   }
 }

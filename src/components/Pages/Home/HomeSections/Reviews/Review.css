@@ -1,0 +1,10 @@
+.slick-dots {
+  height: 70px !important;
+}
+.cstar-rating {
+  font-size: 25px;
+  color: yellow;
+}
+.slick-slider {
+  overflow: hidden !important;
+}

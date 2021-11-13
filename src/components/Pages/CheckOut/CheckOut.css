@@ -1,0 +1,33 @@
+.checkOutForm form input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 13px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.checkOutForm form input[type="submit"] {
+  background: #4f46e5;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.checkOutForm {
+  width: 360px;
+}
+.product-meta {
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.product-meta h2 {
+  margin-top: 25px;
+}
+.product-details {
+  padding: 0 30px;
+}
+
+.product-details h2 {
+  margin-bottom: 18px;
+}

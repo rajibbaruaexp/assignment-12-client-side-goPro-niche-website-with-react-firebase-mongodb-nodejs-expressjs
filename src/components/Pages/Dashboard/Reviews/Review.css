@@ -1,0 +1,18 @@
+.review-wrapper {
+  color: #333;
+}
+
+.admin-wrapper textarea {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 14px;
+  min-height: 150px;
+  margin-bottom: 15px;
+}
+
+.admin-wrapper form input {
+  margin-bottom: 20px;
+}
+.admin-wrapper.review-wrapper button {
+  color: #fff;
+}
