@@ -9,7 +9,7 @@ const Reviews = () => {
     fetch("https://fathomless-bayou-40164.herokuapp.com/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
-  }, [reviews]);
+  }, []);
 
   const settings = {
     dots: true,
@@ -18,7 +18,6 @@ const Reviews = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
   };
   return (
     <>
@@ -30,7 +29,7 @@ const Reviews = () => {
         className="flex items-center justify-center px-5 py-5 bg-blue-100 pt-24 pb-24"
       >
         {reviews.map((review) => (
-          <Review review={review} key={Math.random()}></Review>
+          <Review review={review} key={review._id}></Review>
         ))}
       </Slider>
     </>

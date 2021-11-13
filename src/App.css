@@ -50,4 +50,13 @@
   .my-orders td.text-right button {
     width: 100%;
   }
+  .carousel-wrapper {
+    width: 375px !important;
+  }
+  .customer-review .carousel-root {
+    overflow: hidden !important;
+  }
+  .footer-social {
+    margin: 0 auto;
+  }
 }

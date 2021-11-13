@@ -8,3 +8,8 @@
 .slick-slider {
   overflow: hidden !important;
 }
+.customer-review .carousel .control-dots .dot {
+  background: #333 !important;
+  width: 10px;
+  height: 10px;
+}

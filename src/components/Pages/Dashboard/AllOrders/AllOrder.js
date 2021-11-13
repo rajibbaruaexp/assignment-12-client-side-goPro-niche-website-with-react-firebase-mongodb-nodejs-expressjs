@@ -37,8 +37,9 @@ const AllOrder = (props) => {
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
-          alert("Approved for shipping");
+          if (data.modifiedCount > 1) {
+            alert("Approved for shipping");
+          }
         });
     }
   };

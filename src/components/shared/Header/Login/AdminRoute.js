@@ -3,8 +3,8 @@ import { Redirect, Route } from "react-router";
 import useAuth from "../../../../hooks/useAuth";
 
 const AdminRoute = ({ children, ...rest }) => {
-  const { user, admin } = useAuth();
-  if (!admin) {
+  const { user, isLoading, admin } = useAuth();
+  if (isLoading) {
     return (
       <>
         <div className="cspinner">
@@ -24,7 +24,7 @@ const AdminRoute = ({ children, ...rest }) => {
         ) : (
           <Redirect
             to={{
-              pathname: "/",
+              pathname: "/dashboard",
               state: { from: location },
             }}
           />

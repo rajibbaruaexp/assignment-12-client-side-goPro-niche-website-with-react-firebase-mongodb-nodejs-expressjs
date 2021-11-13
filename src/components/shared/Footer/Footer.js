@@ -116,7 +116,7 @@ const Footer = () => {
             © Copyright 1998-year. All Rights Reserved.
           </div>
 
-          <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+          <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex footer-social">
             <NavLink to="/" className="w-6 mx-1">
               <i className="uil uil-facebook-f"></i>
             </NavLink>

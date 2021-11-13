@@ -5,7 +5,7 @@ import EmailSubscription from "./HomeSections/EmailSubscription/EmailSubscriptio
 import Features from "./HomeSections/Features/Features";
 import GoPros from "./HomeSections/GoPros/GoPros";
 import HomeAbout from "./HomeSections/HomeAbout/HomeAbout";
-import Reviews from "./HomeSections/Reviews/Reviews";
+import ReviewsByCustomers from "./HomeSections/Reviews/ReviewsByCustomers";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <HomeAbout></HomeAbout>
       <Features></Features>
       <GoPros></GoPros>
-      <Reviews></Reviews>
+      <ReviewsByCustomers></ReviewsByCustomers>
       <EmailSubscription></EmailSubscription>
       <Footer></Footer>
     </>
